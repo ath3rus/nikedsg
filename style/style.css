@@ -43,11 +43,30 @@ body {
 @media only screen and (max-width: 800px) {
     .content {
         transform: scale(0.9);
+        width: 50%;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .content {
         transform: scale(0.8);
+        width: 60%;
+
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .content {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    .content h1 {
+        text-align: center;
+    }
+
+    .content {
+        height: 35%;
     }
 }
